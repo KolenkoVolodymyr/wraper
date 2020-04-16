@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wraper {
+  width: 470px;
+  margin: 0 auto;
+  padding: 40px 25px;
+  background: rgb(240, 239, 186);
+}
+
+.article {
+  display: inline-block;
+}
+
+body {
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.wraper img {
+  margin-bottom: 32px;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 38px;
+}
+
+h3 {
+  font-family: 'ubuntu';
+  font-size: 14px;
+  color: #b4ad9e;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 28px;
+}
+
+p {
+  margin: 0px;
+}
